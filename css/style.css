@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1920px;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+header h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+
+header p {
+  font-family: "Lobster Two", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #727272;
+}
+/*# sourceMappingURL=style.css.map */
