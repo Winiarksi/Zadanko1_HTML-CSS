@@ -5,19 +5,36 @@
 }
 
 body {
-  margin: 0 auto;
-  max-width: 1920px;
-  background-color: #ffffff;
-  padding: 0px;
+  text-align: center;
+  background: #ffffff;
+  color: #515151;
+  font-size: 16px;
+  margin: 0 0px;
 }
 
-header h1 {
+.container {
+  max-width: 1920px;
+  margin: 0 0px;
+  padding: 0 0px;
+}
+
+.container__header {
+  background-color: #f8f8f8;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.header__title {
   font-family: "Lobster Two", cursive;
   font-size: 30px;
 }
 
-header p {
-  font-family: "Lobster Two", cursive;
+.header__callUs {
+  font-weight: lighter;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   color: #727272;
