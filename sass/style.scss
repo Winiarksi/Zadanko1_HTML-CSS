@@ -1,3 +1,8 @@
+/* Variables */
+$color-main-green: #5bbd50;
+
+/* Global */
+
 *,
 *::before,
 *::after {
@@ -21,13 +26,12 @@ body {
 .container__header {
     border-top-style: solid;
     border-top-width: 4px;
-    border-top-color: #5bbd50;
+    border-top-color: $color-main-green;
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 
 .header__title {
     font-family: "Lobster Two", cursive;
