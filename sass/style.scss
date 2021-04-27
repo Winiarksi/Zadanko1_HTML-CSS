@@ -1,5 +1,6 @@
 /* Variables */
 $color-main-green: #5bbd50;
+$color-main-gray: #515151;
 
 /* Global */
 
@@ -12,7 +13,7 @@ $color-main-green: #5bbd50;
 body {
     text-align: center;
     background: #ffffff;
-    color: #515151;
+    color: $color-main-gray;
     font-size: 16px;
     margin: 0 0px;
 }
@@ -44,3 +45,13 @@ body {
     font-size: 18px;
     color: #727272;
 }
+
+.main__leftLists{
+    
+}
+
+.main__rightLists{
+color: $color-main-gray;
+}
+
+
