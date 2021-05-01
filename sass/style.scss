@@ -1,6 +1,7 @@
 /* Variables */
 $color-main-green: #5bbd50;
 $color-main-gray: #515151;
+$font-header-main: "Source Sans Pro", sans-serif;
 
 /* Global */
 
@@ -8,7 +9,7 @@ $color-main-gray: #515151;
 *::before,
 *::after {
     box-sizing: border-box;
-    color: unset; 
+    color: unset;
 }
 
 body {
@@ -19,12 +20,10 @@ body {
     text-align: center;
     background: #ffffff;
     color: $color-main-gray;
-    
 }
 
 .container {
     text-decoration: none;
-    color : inherit;
     width: 100%;
     margin: 0 0px;
     padding: 0 0px;
@@ -59,7 +58,7 @@ section:nth-of-type(2) {
     font-size: 18px;
     color: #727272;
     font-weight: lighter;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: $font-header-main;
 }
 
 .container__main {
@@ -74,6 +73,13 @@ section:nth-of-type(2) {
     padding: 0 0px;
     margin: 0px 0px;
     list-style-type: none;
+
+    li:first-of-type {
+        color: $color-main-green;
+    }
+    li{
+        color: #494949;
+    }
 }
 
 .main__rightLists {
@@ -81,8 +87,4 @@ section:nth-of-type(2) {
     padding: 0 0px;
     list-style-type: none;
     color: $color-main-gray;
-
-}
-.main__rightLists li{
-    color: #5bbd50;
 }

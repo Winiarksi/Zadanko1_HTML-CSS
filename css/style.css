@@ -19,7 +19,6 @@ body {
 
 .container {
   text-decoration: none;
-  color: inherit;
   width: 100%;
   margin: 0 0px;
   padding: 0 0px;
@@ -77,15 +76,19 @@ section:nth-of-type(2) {
   list-style-type: none;
 }
 
+.main__leftLists li:first-of-type {
+  color: #5bbd50;
+}
+
+.main__leftLists li {
+  color: #494949;
+}
+
 .main__rightLists {
   display: -ms-flexbox;
   display: flex;
   padding: 0 0px;
   list-style-type: none;
   color: #515151;
-}
-
-.main__rightLists li {
-  color: #5bbd50;
 }
 /*# sourceMappingURL=style.css.map */
