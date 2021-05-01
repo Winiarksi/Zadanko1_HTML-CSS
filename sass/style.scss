@@ -77,10 +77,14 @@ section:nth-of-type(2) {
     list-style-type: none;
 
     li:first-of-type {
+        padding-right: 25px;
+        padding-left: 0px;
         color: $color-main-green;
     }
 
     li {
+        padding-left: 20.2px;
+        padding-right: 19px;
         color: #494949;
     }
 }
@@ -91,4 +95,13 @@ section:nth-of-type(2) {
     font-weight:lighter;
     list-style-type: none;
     color: #6e6e6e;
+
+    li{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+    li:last-of-type{
+        padding-right: 14px;
+    }
 }

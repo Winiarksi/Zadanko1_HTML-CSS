@@ -81,10 +81,14 @@ section:nth-of-type(2) {
 }
 
 .main__leftLists li:first-of-type {
+  padding-right: 25px;
+  padding-left: 0px;
   color: #5bbd50;
 }
 
 .main__leftLists li {
+  padding-left: 20.2px;
+  padding-right: 19px;
   color: #494949;
 }
 
@@ -95,5 +99,14 @@ section:nth-of-type(2) {
   font-weight: lighter;
   list-style-type: none;
   color: #6e6e6e;
+}
+
+.main__rightLists li {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.main__rightLists li:last-of-type {
+  padding-right: 14px;
 }
 /*# sourceMappingURL=style.css.map */
