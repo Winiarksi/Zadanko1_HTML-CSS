@@ -5,6 +5,7 @@
 *::after {
   box-sizing: border-box;
   color: unset;
+  text-decoration: none;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
 }
 
 .container {
-  text-decoration: none;
   width: 100%;
   margin: 0 0px;
   padding: 0 0px;
@@ -66,13 +66,17 @@ section:nth-of-type(2) {
   margin: 0px 19.5%;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .main__leftLists {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 0 0px;
   margin: 0px 0px;
+  font-weight: bold;
   list-style-type: none;
 }
 
@@ -88,7 +92,8 @@ section:nth-of-type(2) {
   display: -ms-flexbox;
   display: flex;
   padding: 0 0px;
+  font-weight: lighter;
   list-style-type: none;
-  color: #515151;
+  color: #6e6e6e;
 }
 /*# sourceMappingURL=style.css.map */

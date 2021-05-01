@@ -4,12 +4,12 @@ $color-main-gray: #515151;
 $font-header-main: "Source Sans Pro", sans-serif;
 
 /* Global */
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
     color: unset;
+    text-decoration: none;
 }
 
 body {
@@ -23,7 +23,6 @@ body {
 }
 
 .container {
-    text-decoration: none;
     width: 100%;
     margin: 0 0px;
     padding: 0 0px;
@@ -66,18 +65,22 @@ section:nth-of-type(2) {
     padding: 0 0px;
     margin: 0px 19.5%;
     justify-content: space-between;
+    font-family: $font-header-main;
 }
 
 .main__leftLists {
     display: flex;
+    align-items: center;
     padding: 0 0px;
     margin: 0px 0px;
+    font-weight: bold;
     list-style-type: none;
 
     li:first-of-type {
         color: $color-main-green;
     }
-    li{
+
+    li {
         color: #494949;
     }
 }
@@ -85,6 +88,7 @@ section:nth-of-type(2) {
 .main__rightLists {
     display: flex;
     padding: 0 0px;
+    font-weight:lighter;
     list-style-type: none;
-    color: $color-main-gray;
+    color: #6e6e6e;
 }
