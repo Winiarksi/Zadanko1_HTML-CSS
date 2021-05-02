@@ -1,4 +1,4 @@
-// /* Variables */
+/* Variables */
 @import "sass/header";
 @import "sass/main";
 
@@ -14,7 +14,7 @@
 
 body {
     all: revert;
-    margin: 0 0px;
+    margin: 0 0;
     font-size: 16px;
     max-width: 1920px;
     text-align: center;
@@ -24,8 +24,8 @@ body {
 
 .container {
     width: 100%;
-    margin: 0 0px;
-    padding: 0 0px;
+    margin: 0 0;
+    padding: 0 0;
 }
 
 section:first-of-type {
@@ -43,9 +43,9 @@ section:nth-of-type(2) {
 
 .container__header {
     display: flex;
-    margin: 0px 19.5%;
+    margin: 0 19.5%;
     align-items: center;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
     justify-content: space-between;
 }
 
@@ -63,8 +63,8 @@ section:nth-of-type(2) {
 
 .container__main {
     display: flex;
-    padding: 0 0px;
-    margin: 0px 19.5%;
+    padding: 0 0;
+    margin: 0 19.5%;
     justify-content: space-between;
     font-family: $font-header-main;
 }
@@ -72,14 +72,14 @@ section:nth-of-type(2) {
 .main__leftLists {
     display: flex;
     align-items: center;
-    padding: 0 0px;
-    margin: 0px 0px;
+    padding: 0 0;
+    margin: 0 0;
     font-weight: bold;
     list-style-type: none;
 
     li:first-of-type {
         padding-right: 25px;
-        padding-left: 0px;
+        padding-left: 0;
         color: $color-main-green;
     }
 
@@ -92,7 +92,7 @@ section:nth-of-type(2) {
 
 .main__rightLists {
     display: flex;
-    padding: 0 0px;
+    padding: 0 0;
     font-weight:lighter;
     list-style-type: none;
     color: #6e6e6e;

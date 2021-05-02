@@ -1,3 +1,4 @@
+/* Variables */
 /* Global */
 *,
 *::before,
@@ -9,7 +10,7 @@
 
 body {
   all: revert;
-  margin: 0 0px;
+  margin: 0 0;
   font-size: 16px;
   max-width: 1920px;
   text-align: center;
@@ -19,8 +20,8 @@ body {
 
 .container {
   width: 100%;
-  margin: 0 0px;
-  padding: 0 0px;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 section:first-of-type {
@@ -39,10 +40,10 @@ section:nth-of-type(2) {
 .container__header {
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 19.5%;
+  margin: 0 19.5%;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
@@ -62,8 +63,8 @@ section:nth-of-type(2) {
 .container__main {
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0px;
-  margin: 0px 19.5%;
+  padding: 0 0;
+  margin: 0 19.5%;
   -ms-flex-pack: justify;
       justify-content: space-between;
   font-family: "Source Sans Pro", sans-serif;
@@ -74,15 +75,15 @@ section:nth-of-type(2) {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0 0px;
-  margin: 0px 0px;
+  padding: 0 0;
+  margin: 0 0;
   font-weight: bold;
   list-style-type: none;
 }
 
 .main__leftLists li:first-of-type {
   padding-right: 25px;
-  padding-left: 0px;
+  padding-left: 0;
   color: #5bbd50;
 }
 
@@ -95,7 +96,7 @@ section:nth-of-type(2) {
 .main__rightLists {
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0px;
+  padding: 0 0;
   font-weight: lighter;
   list-style-type: none;
   color: #6e6e6e;
