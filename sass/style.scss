@@ -1,7 +1,7 @@
-/* Variables */
-$color-main-green: #5bbd50;
-$color-main-gray: #515151;
-$font-header-main: "Source Sans Pro", sans-serif;
+// /* Variables */
+@import "sass/header";
+@import "sass/main";
+
 
 /* Global */
 *,
