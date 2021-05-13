@@ -1,6 +1,7 @@
 /* Variables */
 @import "sass/header";
 @import "sass/main";
+@import "sass/banner";
 
 /* Global */
 *,
@@ -104,4 +105,12 @@ body {
     li:last-of-type {
         padding-right: 14px;
     }
+}
+
+.banner{
+    height: 423px;
+}
+.container__banner {
+    display: flex;   
+    padding: 0 0 0 0;
 }
