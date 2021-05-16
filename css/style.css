@@ -110,4 +110,15 @@ body {
 .main__right-lists li:last-of-type {
   padding-right: 14px;
 }
+
+.container__banner {
+  height: 423px;
+}
+
+.banner__img-background {
+  object-fit: cover;
+  object-position: 15% 20%;
+  height: 80%;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

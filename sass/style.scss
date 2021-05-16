@@ -107,10 +107,13 @@ body {
     }
 }
 
-.banner{
+.container__banner{
     height: 423px;
 }
-.container__banner {
-    display: flex;   
-    padding: 0 0 0 0;
+
+.banner__img-background {
+    object-fit: cover;
+    object-position: 15% 20%;
+    height: 80%;
+    width: 100%;
 }
