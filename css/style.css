@@ -115,10 +115,21 @@ body {
   height: 423px;
 }
 
-.banner__img-background {
+.container__banner {
+  background-image: url("../images/banner/banner_burger.png");
   object-fit: cover;
-  object-position: 10% 25%;
   height: 100%;
-  width: 100%;
+  background-position: 0% 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.card-body {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
 }
 /*# sourceMappingURL=style.css.map */
