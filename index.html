@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>FoodTemplate</title>
+    
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,17 +15,45 @@
 </head>
 
 <body>
+    <!-- czy tag header musi znajdować się w section? Lepiej go wyjąć poniewaz definiuje on pewna czesc strony inna niz pozostale, header jest jeden w swoim rodzaju a sekcje sa co prawda z innym kontentem ale moze ich bys wiele w porownaniu do headera.  -->
     <section class="container header">
         <header class="container__header">
             <h1 class="header__title"><span style="color: #5bbd50">Food</span><span
-                    style="color: #e24425">Template</span></h1>
+                style="color: #e24425">Template</span></h1>
+                <!-- wywal style inlinowe w spanach i nadaj temu klase -->
             <p class="header__contact">Questions? Call us Toll-free! <span
                     style="color: #e24425;font-weight:bold">1800-0000-7777</span>
                 (11AM to 11PM)</p>
         </header>
     </section>
+        <!-- <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <h1 class="header__title"><span style="color: #5bbd50">Food</span><span
+                        class="text-red">Template</span>
+                    </h1>
+                    <p class="header__contact">Questions? Call us Toll-free! 
+                        <span class="text-red bold">1800-0000-7777
+                        </span>
+                            (11AM to 11PM)
+                    </p>
+                </div>
+            </div>
+            <nav>
+                tutaj powinna być nawigacja według mnie
+            </nav>
+        </header>
+        <main>
+            <section>sekcja z banerem</section>
+            <section>kolejna sekcja</section>
+            <section>kolejna sekcja</section>
+        </main> -->
+        <!-- stworz sobie plik css o nazwie _helpers.scss i trzymaj tam proste klasy ktore moga sie przydac, np. text-red, text-bolded, m-5 czyli margin: 5px itp. -->
+        <!-- i wtedy np w innej biblioteczce mozesz stworzyć dla numeru telefonu klase o nazwie phone-number ktorą dodaje wykorzystuje klase text-bolded i text-red z helpersów, czyli powstaje taka fajna reuzywalnosc -->
+    <!-- bardzo mieszają się nazwy klas -->
     <section class="container main">
         <nav class="container__main">
+            <!-- jezeli podczas responsywnosci bedzie trzeba przesunac liste lub cos to juz nie koniecznie bedzie to left, miej to na uwadze podczas nazwenictwa -->
             <ul class="main__left-lists">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">POPURAL RESTAURANTS</a></li>
@@ -38,6 +67,22 @@
             </ul>
         </nav>
     </section>
+    <!-- moja szybka propozycja do sekcji main -->
+    <!-- <section class="container main">
+        <nav class="main__nav">
+            <ul class="main__nav__list">
+                <li class="main__nav__list--item"><a href="#">HOME</a></li>
+                <li class="main__nav__list--item"><a href="#">POPURAL RESTAURANTS</a></li>
+                <li class="main__nav__list--item"><a href="#">ORDER</a></li>
+                <li class="main__nav__list--item"><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="user__nav__list">
+                <li class="user__nav__list--item"><a href="#">Login</a></li>
+                <li class="user__nav__list--item"><a href="#">Register</a></li>
+                <li class="user__nav__list--item"><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </section> -->
     <section class="container banner">
         <div class="container__banner">
             <div class="banner__img">

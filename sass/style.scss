@@ -7,121 +7,124 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    color: unset;
-    text-decoration: none;
+  box-sizing: border-box;
+  color: unset;
+  text-decoration: none;
 }
 
 body {
-    all: revert;
-    margin: 0 0;
-    font-size: 16px;
-    max-width: 1920px;
-    text-align: center;
-    background: #ffffff;
-    color: #515151;
+  all: revert;
+  margin: 0 0;
+  font-size: 16px;
+  max-width: 1920px;
+  text-align: center;
+  background: #ffffff;
+  color: #515151;
 }
+// wrzuc do pliku main.scss i wrzucaj tam glowne klasy ktore np mozna wplesc w kazda sekcja jak np ten container, albo jakis wrapper, albo jakis heading, title-heading, styled-paragraph,
 
 .container {
-    width: 100%;
-    margin: 0 0;
-    padding: 0 0;
+  width: 100%;
+  // zero to jest zero wiec wystarczy wpisac 0 zamiast 0 0;
+  margin: 0 0;
+  padding: 0 0;
 }
-
+// wrzuc do pliku header
 .header {
-    border-top-width: 4px;
-    height: 100px;
-    border-top-style: solid;
-    background-color: $color-header-background;
-    border-top-color: $color-header-green;
+  border-top-width: 4px;
+  //Ustawileś na sztywno wysokość headera, co w przypadku jezeli tekst z jakiegos powodu sie zwinie itp. Spróbuj tą samą wysokość osiągnąć poprzez paddingi
+  height: 100px;
+  border-top-style: solid;
+  //super ze uzywasz wlasnych zmiennych!
+  background-color: $color-header-background;
+  border-top-color: $color-header-green;
 }
 
 .container__header {
-    display: flex;
-    margin: 0 19.5%;
-    align-items: center;
-    padding: 0 0 0 0;
-    justify-content: space-between;
+  display: flex;
+  margin: 0 19.5%;
+  align-items: center;
+  padding: 0 0 0 0;
+  justify-content: space-between;
 }
-
 .header__title {
-    font-size: 30px;
-    font-family: $font-header-logo;
+  font-size: 30px;
+  font-family: $font-header-logo;
 }
 
 .header__contact {
-    font-size: 18px;
-    color: $color-header-grey;
-    font-weight: lighter;
-    font-family: $font-header;
+  font-size: 18px;
+  color: $color-header-grey;
+  font-weight: lighter;
+  font-family: $font-header;
 }
-
+// to do zmiany, najpierw html przepraw i podziel odpowiednoo kontent strony na moduły, bedzie Ci pozniej wygodnie,
 .main {
-    height: 50px;
-    background-color: $color-main-background;
+  height: 50px;
+  background-color: $color-main-background;
 }
 
 .container__main {
-    display: flex;
-    padding: 0 0;
-    margin: 0 19.5%;
-    justify-content: space-between;
-    font-family: $font-main;
+  display: flex;
+  padding: 0 0;
+  margin: 0 19.5%;
+  justify-content: space-between;
+  font-family: $font-main;
 }
 
 .main__left-lists {
-    display: flex;
-    align-items: center;
-    padding: 0 0;
-    margin: 0 0;
-    font-weight: bold;
-    list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0 0;
+  margin: 0 0;
+  font-weight: bold;
+  list-style-type: none;
 
-    li:first-of-type {
-        padding-right: 25px;
-        padding-left: 0;
-        color: $color-main-green;
-    }
+  li:first-of-type {
+    padding-right: 25px;
+    padding-left: 0;
+    color: $color-main-green;
+  }
 
-    li {
-        padding-left: 20.2px;
-        padding-right: 19px;
-        color: $color-main-left-lists;
-    }
+  li {
+    padding-left: 20.2px;
+    padding-right: 19px;
+    color: $color-main-left-lists;
+  }
 }
 
 .main__right-lists {
-    display: flex;
-    padding: 0 0;
-    font-weight: lighter;
-    list-style-type: none;
-    color: $color-main-right-lists;
+  display: flex;
+  padding: 0 0;
+  font-weight: lighter;
+  list-style-type: none;
+  color: $color-main-right-lists;
 
-    li {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+  li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-    li:last-of-type {
-        padding-right: 14px;
-    }
+  li:last-of-type {
+    padding-right: 14px;
+  }
 }
-
+// do pliku banner.scss powinno pojsc
 .banner__img {
-    height: 423px;
+  height: 423px;
 }
 
 .container__banner {
-    background-image: url("../images/banner/banner_burger.png");
-    object-fit: cover;
-    height: 100%;
-    background-position: 0% 20%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  background-image: url("../images/banner/banner_burger.png");
+  object-fit: cover;
+  height: 100%;
+  background-position: 0% 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .card-body {
-    align-items: center;
-    display: flex;
-    flex-flow: column;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }

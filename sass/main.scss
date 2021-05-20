@@ -1,0 +1,28 @@
+// tutaj style głowne dla kazdej sekcji strony itp
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  all: revert;
+  margin: 0 0;
+  font-size: 16px;
+  max-width: 1920px;
+  text-align: center;
+  background: #ffffff;
+  color: #515151;
+}
+
+li {
+}
+
+ul {
+}
+//swoja droga klasa container moglaby sie znalezc tez w helpers, w koncu to klasa pomocnicza
+.container {
+}

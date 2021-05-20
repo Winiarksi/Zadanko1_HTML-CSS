@@ -1,5 +1,14 @@
+// wszystkie kolory wrzuć w jedno miejsce np _variables.scss
+// i pousuwaj te pliki __banner, __header, __main
+// mozesz za to kazdą sekcje do innego pliku wrzucac i w ten plik specyficzne dla niej style zeby tworzyc modulowosc
+
+// moze bardziej tego typu nazwenictwo i wtedy nie tylko w banerze bedziesz mogl uzyc bo bedzie bardziej ogolne
+// $color-white: #ffffff;
+// $color-input-placeholder-attribute: #c0c0c0;
+// $font-first-headline: "Source Sans Pro", sans-serif;
+// $font-second-headline: 'Lobster Two', cursive;
+
 $color-banner: #ffffff;
 $color-banner-input-placeholder-attribute: #c0c0c0;
 $font-banner-first-headline: "Source Sans Pro", sans-serif;
-$font-banner-second-headline: 'Lobster Two', cursive;
-
+$font-banner-second-headline: "Lobster Two", cursive;
