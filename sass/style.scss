@@ -120,8 +120,19 @@ body {
     background-repeat: no-repeat;
 }
 
-.card-body {
-    align-items: center;
-    display: flex;
-    flex-flow: column;
+.cta__title1 {
+    font-size: 32px;
+    font-weight: lighter;
+    
+    // -webkit-font-smoothing: antialiased;
+    font-family: $font-banner-first-headline;
+    color: $color-banner;
+}
+
+.cta__title2 {
+    font-size: 32px;
+    font-weight: lighter;
+    color: $color-banner;
+    font-family: $font-banner-second-headline;
+    
 }

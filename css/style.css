@@ -124,12 +124,17 @@ body {
   background-repeat: no-repeat;
 }
 
-.card-body {
-  -ms-flex-align: center;
-      align-items: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: column;
-      flex-flow: column;
+.cta__title1 {
+  font-size: 32px;
+  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+}
+
+.cta__title2 {
+  font-size: 32px;
+  font-weight: lighter;
+  color: #ffffff;
+  font-family: "Lobster Two", cursive;
 }
 /*# sourceMappingURL=style.css.map */
