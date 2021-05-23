@@ -4,3 +4,33 @@ $color-header-background: #f8f8f8;
 
 $font-header-logo: "Lobster Two", cursive;
 $font-header: "Source Sans Pro", sans-serif;
+
+
+
+.header {
+    border-top-width: 4px;
+    height: 100px;
+    border-top-style: solid;
+    background-color: $color-header-background;
+    border-top-color: $color-header-green;
+}
+
+.header__wrapper {
+    display: flex;
+    margin: 0 19.5%;
+    align-items: center;
+    padding: 0 0 0 0;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 30px;
+    font-family: $font-header-logo;
+}
+
+.header__contact {
+    font-size: 18px;
+    color: $color-header-grey;
+    font-weight: lighter;
+    font-family: $font-header;
+}
