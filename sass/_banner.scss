@@ -3,3 +3,34 @@ $color-banner-input-placeholder-attribute: #c0c0c0;
 $font-banner-first-headline: "Source Sans Pro", sans-serif;
 $font-banner-second-headline: 'Lobster Two', cursive;
 
+
+.cta {
+    height: 423px;
+}
+
+.container__banner {
+    background-image: url("../images/banner/banner_burger.png");
+    object-fit: cover;
+    height: 100%;
+    background-position: 0% 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cta__title1 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0;
+    // -webkit-font-smoothing: antialiased;
+    font-family: $font-banner-first-headline;
+    color: $color-banner;
+}
+
+.cta__title2 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 0;
+    color: $color-banner;
+    font-family: $font-banner-second-headline;
+    
+}

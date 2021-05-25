@@ -1,7 +1,8 @@
 /* Variables */
 .header {
-  border-top-width: 4px;
-  height: 100px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top-style: solid;
   background-color: #f8f8f8;
   border-top-color: #5bbd50;
@@ -30,29 +31,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* Global */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  color: unset;
-  text-decoration: none;
-}
-
-body {
-  all: revert;
-  margin: 0 0;
-  font-size: 16px;
-  max-width: 1920px;
-  text-align: center;
-  background: #ffffff;
-  color: #515151;
-}
-
 .container {
   width: 100%;
-  margin: 0 0;
-  padding: 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -63,7 +45,7 @@ body {
 .main__nav {
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0;
+  padding: 0;
   margin: 0 19.5%;
   -ms-flex-pack: justify;
       justify-content: space-between;
@@ -75,8 +57,8 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0 0;
-  margin: 0 0;
+  padding: 0;
+  margin: 0;
   font-weight: bold;
   list-style-type: none;
 }
@@ -96,7 +78,7 @@ body {
 .main__right__lists {
   display: -ms-flexbox;
   display: flex;
-  padding: 0 0;
+  padding: 0;
   font-weight: lighter;
   list-style-type: none;
   color: #6e6e6e;
@@ -138,5 +120,24 @@ body {
   margin: 0;
   color: #ffffff;
   font-family: "Lobster Two", cursive;
+}
+
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  all: revert;
+  margin: 0;
+  font-size: 16px;
+  max-width: 1920px;
+  text-align: center;
+  background: #ffffff;
+  color: #515151;
 }
 /*# sourceMappingURL=style.css.map */
