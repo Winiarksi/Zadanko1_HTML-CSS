@@ -8,7 +8,9 @@ $font-header: "Source Sans Pro", sans-serif;
 
 
 .header {
-    // border-top-width: 4px;
+    display: flex;
+    align-items: center;
+    border-top-width: 4px;
     height: 80px;
     padding-top: 10px;
     padding-bottom: 10px;

@@ -1,5 +1,10 @@
 /* Variables */
 .header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  border-top-width: 4px;
   height: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
