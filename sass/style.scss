@@ -1,7 +1,8 @@
 /* Variables */
 @import "sass/header";
-@import "sass/main";
+@import "sass/menu";
 @import "sass/banner";
+@import "sass/helpers";
 
 /* Global */
 *,
@@ -22,8 +23,3 @@ body {
     color: #515151;
 }
 
-.container {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
