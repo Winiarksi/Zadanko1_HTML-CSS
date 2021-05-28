@@ -1,11 +1,10 @@
 $color-header-green: #5bbd50;
+$color-header-read: #e24425;
 $color-header-grey: #727272;
 $color-header-background: #f8f8f8;
 
 $font-header-logo: "Lobster Two", cursive;
 $font-header: "Source Sans Pro", sans-serif;
-
-
 
 .header {
     display: flex;
@@ -23,13 +22,25 @@ $font-header: "Source Sans Pro", sans-serif;
     display: flex;
     margin: 0 19.5%;
     align-items: center;
-    padding: 0 0 0 0;
+    padding: 0;
     justify-content: space-between;
 }
 
 .header__title {
     font-size: 30px;
     font-family: $font-header-logo;
+}
+
+.header__title__color1 {
+    color: $color-header-green;
+}
+
+.header__title__color2 {
+    color: $color-header-read;
+}
+
+.header__contact__color {
+    color: $color-header-read;
 }
 
 .header__contact {
