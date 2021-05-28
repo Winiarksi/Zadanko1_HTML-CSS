@@ -36,18 +36,12 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.main {
+.menu {
   height: 50px;
   background-color: #f1f1f1;
 }
 
-.main__nav {
+.menu__nav {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
@@ -57,7 +51,7 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.main__nav__list {
+.menu__nav__list {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -68,19 +62,19 @@
   list-style-type: none;
 }
 
-.main__nav__list .main_nav_list--item:first-of-type {
+.menu__nav__list .menu_nav_list--item:first-of-type {
   padding-right: 25px;
   padding-left: 0;
   color: #5bbd50;
 }
 
-.main__nav__list .main_nav_list--item {
+.menu__nav__list .menu_nav_list--item {
   padding-left: 20.2px;
   padding-right: 19px;
   color: #494949;
 }
 
-.main__right__lists {
+.menu__right__lists {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
@@ -89,12 +83,12 @@
   color: #6e6e6e;
 }
 
-.main__right__lists .user__nav__list--item {
+.menu__right__lists .user__nav__list--item {
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.main__right__lists .user__nav__list--item:last-of-type {
+.menu__right__lists .user__nav__list--item:last-of-type {
   padding-right: 14px;
 }
 
@@ -144,5 +138,11 @@ body {
   text-align: center;
   background: #ffffff;
   color: #515151;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
