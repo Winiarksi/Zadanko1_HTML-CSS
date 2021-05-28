@@ -19,7 +19,7 @@
   margin: 0 19.5%;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0 0 0 0;
+  padding: 0;
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
@@ -27,6 +27,18 @@
 .header__title {
   font-size: 30px;
   font-family: "Lobster Two", cursive;
+}
+
+.header__title__color1 {
+  color: #5bbd50;
+}
+
+.header__title__color2 {
+  color: #e24425;
+}
+
+.header__contact__color {
+  color: #e24425;
 }
 
 .header__contact {
@@ -121,6 +133,12 @@
   font-family: "Lobster Two", cursive;
 }
 
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* Global */
 *,
 *::before,
@@ -138,11 +156,5 @@ body {
   text-align: center;
   background: #ffffff;
   color: #515151;
-}
-
-.container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
