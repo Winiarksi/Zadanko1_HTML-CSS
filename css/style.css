@@ -1,4 +1,3 @@
-/* Variables */
 .header {
   display: -ms-flexbox;
   display: flex;
@@ -46,6 +45,25 @@
   color: #727272;
   font-weight: lighter;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  all: revert;
+  margin: 0;
+  font-size: 16px;
+  max-width: 1920px;
+  text-align: center;
+  background: #ffffff;
+  color: #515151;
 }
 
 .container {
@@ -118,8 +136,7 @@
   background-image: url("../images/banner/banner_burger.png");
   object-fit: cover;
   height: 100%;
-  background-position: 0% 20%;
-  background-size: 100%;
+  background-position: 0 20%;
   background-repeat: no-repeat;
 }
 
@@ -134,27 +151,30 @@
 .cta__title2 {
   font-size: 32px;
   font-weight: lighter;
-  margin: 0;
+  margin: 0 auto;
   color: #ffffff;
   font-family: "Lobster Two", cursive;
-}
-
-/* Global */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  color: unset;
-  text-decoration: none;
-}
-
-body {
-  all: revert;
-  margin: 0;
-  font-size: 16px;
-  max-width: 1920px;
+  position: relative;
   text-align: center;
-  background: #ffffff;
-  color: #515151;
+  max-width: 1008px;
+}
+
+.cta__title2:before {
+  left: 0;
+}
+
+.cta__title2:after {
+  right: 0;
+}
+
+.parallel-line-style, .cta__title2:before, .cta__title2:after {
+  content: "";
+  display: block;
+  width: 355px;
+  height: 4px;
+  border-top: 4px double;
+  border-color: rgba(255, 255, 255, 0.5);
+  top: 55%;
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

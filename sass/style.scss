@@ -1,26 +1,5 @@
-/* Variables */
 @import "sass/header";
 @import "sass/main";
 @import "sass/menu";
 @import "sass/banner";
 @import "sass/helpers";
-
-/* Global */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    color: unset;
-    text-decoration: none;
-}
-
-body {
-    all: revert;
-    margin: 0;
-    font-size: 16px;
-    max-width: 1920px;
-    text-align: center;
-    background: #ffffff;
-    color: #515151;
-}
-
