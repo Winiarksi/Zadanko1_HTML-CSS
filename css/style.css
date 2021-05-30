@@ -167,6 +167,45 @@ body {
   right: 0;
 }
 
+.form {
+  height: 60px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 19.5%;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.form .field {
+  height: 60px;
+  width: 370px;
+  border-radius: 10%;
+}
+
+.form .field3 {
+  height: 60px;
+  max-width: 270px;
+  border-radius: 10%;
+}
+
+.form .cta__input {
+  width: 100%;
+  height: 47px;
+  border: 0;
+  padding: 1px 0;
+  border-radius: 10%;
+}
+
+.icon {
+  width: 70px;
+  height: 47px;
+  background-color: #5bbd50;
+  font-size: 18px;
+  border-radius: 10%;
+  line-height: 55px;
+  color: #ffffff;
+}
+
 .parallel-line-style, .cta__title2:before, .cta__title2:after {
   content: "";
   display: block;
