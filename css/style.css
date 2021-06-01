@@ -178,38 +178,22 @@ body {
 
 .form {
   height: 100px;
+  width: 1920px;
+  margin: 0 19.5%;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 19.5%;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
   -ms-flex-align: end;
       align-items: flex-end;
-  width: 1920px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .form .field {
-  height: 80px;
-  border-radius: 0.5em;
   width: 370px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
 }
 
 .form .field3 {
   max-width: 270px;
-  height: 80px;
-  border-radius: 0.5em;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
 }
 
 .form .cta__search {
@@ -238,12 +222,12 @@ body {
   height: 47px;
   background-color: #5bbd50;
   font-size: 18px;
-  border-radius: 10%;
+  border-radius: 0.5em;
   line-height: 55px;
   color: #ffffff;
 }
 
-.parallel-line-style, .cta__title2:before, .cta__title2:after {
+.parallel__line__style, .cta__title2:before, .cta__title2:after {
   content: "";
   display: block;
   width: 355px;
@@ -252,5 +236,16 @@ body {
   border-color: rgba(255, 255, 255, 0.5);
   top: 55%;
   position: absolute;
+}
+
+.flex__setting__cta__filed, .form .field, .form .field3 {
+  height: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  border-radius: 0.5em;
 }
 /*# sourceMappingURL=style.css.map */

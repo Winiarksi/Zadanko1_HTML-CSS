@@ -4,7 +4,7 @@
 // o nazwie phone-number ktorą dodaje wykorzystuje klase text-bolded i text-red
 // z helpersów, czyli powstaje taka fajna reuzywalnosc -->
 
-.parallel-line-style {
+.parallel__line__style {
     content: "";
     display: block;
     width: 355px;
@@ -13,4 +13,12 @@
     border-color: rgba(255, 255, 255, 0.5);
     top: 55%;
     position: absolute;
+}
+
+.flex__setting__cta__filed{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border-radius: 0.5em;
 }
