@@ -1,0 +1,16 @@
+
+
+.dot {
+    height: 181px;
+    width: 181px;
+    // background-color: $color-banner-green;
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(
+        to bottom, 
+        $color-banner-green 0%, 
+        $color-banner-green 50%, 
+        $color-menu-gray 50%, 
+        $color-menu-gray 100%
+      );
+  }

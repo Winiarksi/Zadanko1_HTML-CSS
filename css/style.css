@@ -248,4 +248,12 @@ body {
       align-content: flex-end;
   border-radius: 0.5em;
 }
+
+.dot {
+  height: 181px;
+  width: 181px;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(to bottom, #5bbd50 0%, #5bbd50 50%, #515151 50%, #515151 100%);
+}
 /*# sourceMappingURL=style.css.map */
