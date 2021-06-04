@@ -1,16 +1,37 @@
+$r: 25px;
 
+.orders_box {
+    outline: solid 2px;
+}
 
-.dot {
+.dot1 {
+    outline: solid 3px rgb(190, 8, 8);
     height: 181px;
     width: 181px;
-    // background-color: $color-banner-green;
     border-radius: 50%;
     display: inline-block;
     background: linear-gradient(
-        to bottom, 
-        $color-banner-green 0%, 
-        $color-banner-green 50%, 
-        $color-menu-gray 50%, 
+        to bottom,
+        $color-banner-green 0%,
+        $color-banner-green 50%,
+        $color-menu-gray 50%,
         $color-menu-gray 100%
-      );
-  }
+    );
+
+    &:before {
+        position: absolute;
+        border: solid white 4px;
+        // padding: $r;
+        background: #e24425;
+        font-family: $font-menu;
+        // text-align: center;
+        font-size: 1.75em;
+        vertical-align: top;
+        content: "2";
+        // margin: -$r;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        
+    }
+}

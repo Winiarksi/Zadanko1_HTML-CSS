@@ -1,0 +1,22 @@
+$r: 2em;
+
+.box {
+    position: relative;
+    outline: solid 2px;
+    
+    // max-width: 15em;
+    // min-height: 10em;
+    height: 400px;
+    width: 1920px;
+
+    &:before {
+        position: absolute;
+        padding: $r;
+        box-shadow: 0 0 7px #b53;
+        background: #95a;
+        content: '';
+
+        border: solid white 4px;
+      }
+
+  }

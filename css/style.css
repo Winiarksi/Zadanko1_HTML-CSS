@@ -249,11 +249,45 @@ body {
   border-radius: 0.5em;
 }
 
-.dot {
+.orders_box {
+  outline: solid 2px;
+}
+
+.dot1 {
+  outline: solid 3px #be0808;
   height: 181px;
   width: 181px;
   border-radius: 50%;
   display: inline-block;
   background: linear-gradient(to bottom, #5bbd50 0%, #5bbd50 50%, #515151 50%, #515151 100%);
+}
+
+.dot1:before {
+  position: absolute;
+  border: solid white 4px;
+  background: #e24425;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.75em;
+  vertical-align: top;
+  content: "2";
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.box {
+  position: relative;
+  outline: solid 2px;
+  height: 400px;
+  width: 1920px;
+}
+
+.box:before {
+  position: absolute;
+  padding: 2em;
+  box-shadow: 0 0 7px #b53;
+  background: #95a;
+  content: '';
+  border: solid white 4px;
 }
 /*# sourceMappingURL=style.css.map */
