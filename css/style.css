@@ -249,30 +249,109 @@ body {
   border-radius: 0.5em;
 }
 
-.orders_box {
+.order__circle__before__template, .circle__choose:before, .circle__order:before {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  border: solid white 4px;
+  background: #e24425;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5em;
+  margin: -25px;
+  left: 50%;
+  top: -13.5px;
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+}
+
+.circle__template, .circle__choose, .circle__order {
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  height: 181px;
+  width: 181px;
+  margin: 0px;
+  color: white;
+}
+
+.order_path {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.orders__box {
   outline: solid 2px;
 }
 
-.dot1 {
+.order__circle {
+  position: relative;
   outline: solid 3px #be0808;
   height: 181px;
   width: 181px;
   border-radius: 50%;
   display: inline-block;
+  text-align: center;
   background: linear-gradient(to bottom, #5bbd50 0%, #5bbd50 50%, #515151 50%, #515151 100%);
 }
 
-.dot1:before {
-  position: absolute;
-  border: solid white 4px;
-  background: #e24425;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.75em;
-  vertical-align: top;
+.circle__choose {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.circle__choose:before {
+  content: "1";
+}
+
+.circle__choose .circle__choose__icona {
+  display: block;
+  margin: auto;
+  width: 28px;
+  height: 36px;
+}
+
+.circle__choose p {
+  font-size: 18px;
+  margin: auto;
+}
+
+.circle__choose .circle__choose_color {
+  color: #78c770;
+}
+
+.circle__order {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.circle__order:before {
   content: "2";
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+}
+
+.circle__order .circle__order__icona {
+  display: block;
+  margin: auto;
+  width: 32px;
+  height: 40px;
+}
+
+.circle__order p {
+  font-size: 18px;
+  margin: auto;
+}
+
+.circle__text_color {
+  color: #78c770;
 }
 
 .box {

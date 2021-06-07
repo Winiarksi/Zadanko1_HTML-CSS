@@ -1,15 +1,21 @@
-$r: 25px;
+.order_path {
+    display: flex;
+    justify-content: space-around;
+}
 
-.orders_box {
+.orders__box {
     outline: solid 2px;
 }
 
-.dot1 {
+.order__circle {
+    position: relative;
     outline: solid 3px rgb(190, 8, 8);
     height: 181px;
     width: 181px;
     border-radius: 50%;
     display: inline-block;
+    text-align: center;
+
     background: linear-gradient(
         to bottom,
         $color-banner-green 0%,
@@ -17,21 +23,56 @@ $r: 25px;
         $color-menu-gray 50%,
         $color-menu-gray 100%
     );
+}
 
+.circle__choose {
+    display: flex;
+    @extend .circle__template;
     &:before {
-        position: absolute;
-        border: solid white 4px;
-        // padding: $r;
-        background: #e24425;
-        font-family: $font-menu;
-        // text-align: center;
-        font-size: 1.75em;
-        vertical-align: top;
-        content: "2";
-        // margin: -$r;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        
+        content: "1";
+        @extend .order__circle__before__template;
     }
+
+    .circle__choose__icona {
+        display: block;
+        margin: auto;
+
+        width: 28px;
+        height: 36px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: auto;
+    }
+
+    .circle__choose_color {
+        color: #78c770;
+    }
+}
+
+.circle__order {
+    display: flex;
+    @extend .circle__template;
+    &:before {
+        content: "2";
+        @extend .order__circle__before__template;
+    }
+
+    .circle__order__icona {
+        display: block;
+        margin: auto;
+
+        width: 32px;
+        height: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: auto;
+    }
+}
+
+.circle__text_color {
+    color: #78c770;
 }
