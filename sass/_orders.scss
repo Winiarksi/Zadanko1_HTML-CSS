@@ -1,10 +1,19 @@
-.order_path {
-    display: flex;
-    justify-content: space-around;
+.container__orders{
+    // width: 1920px;
+    // margin: 0 19.5%;
+    height: 508px;
 }
 
 .orders__box {
+    height: 100%;
+    margin: 0 19.5%;
     outline: solid 2px;
+}
+
+.order_path {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .order__circle {
@@ -34,16 +43,9 @@
     }
 
     .circle__choose__icona {
-        display: block;
-        margin: auto;
-
+        @extend .position_in_circle;
         width: 28px;
         height: 36px;
-    }
-
-    p {
-        font-size: 18px;
-        margin: auto;
     }
 
     .circle__choose_color {
@@ -60,19 +62,53 @@
     }
 
     .circle__order__icona {
-        display: block;
-        margin: auto;
-
+        @extend .position_in_circle;
         width: 32px;
         height: 40px;
     }
+}
 
-    p {
-        font-size: 18px;
-        margin: auto;
+.circle__pay {
+    display: flex;
+    @extend .circle__template;
+    &:before {
+        content: "3";
+        @extend .order__circle__before__template;
     }
+
+    .circle__pay__icona {
+        @extend .position_in_circle;
+        width: 41px;
+        height: 33px;
+    }
+}
+
+.circle_enjoy {
+    display: flex;
+    @extend .circle__template;
+    &:before {
+        content: "4";
+        @extend .order__circle__before__template;
+    }
+
+    .circle__enjoy__icona {
+        @extend .position_in_circle;
+        width: 34px;
+        height: 33px;
+    }
+}
+
+.order__description {
+    font-size: 18px;
+    margin: auto;
 }
 
 .circle__text_color {
     color: #78c770;
+}
+
+.arrow__icona{
+    color: #f1f1f1;
+    width: 80px;
+    height: 23px;
 }

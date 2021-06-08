@@ -4,13 +4,6 @@ $color-banner-input-placeholder-attribute: #c0c0c0;
 $font-banner-first-headline: "Source Sans Pro", sans-serif;
 $font-banner-second-headline: "Lobster Two", cursive;
 
-.cta {
-    height: 423px;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
 .container__banner {
     background-image: url("../images/banner/banner_burger.png");
     object-fit: cover;
@@ -19,6 +12,14 @@ $font-banner-second-headline: "Lobster Two", cursive;
     // background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.cta {
+    height: 423px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 
 .cta__title1 {
     font-size: 32px;
