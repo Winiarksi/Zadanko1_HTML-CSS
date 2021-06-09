@@ -296,8 +296,8 @@ body {
   width: 1920px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+  -ms-flex-align: stretch;
+      align-items: stretch;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -308,12 +308,12 @@ body {
   font-family: "Lobster Two", cursive;
   position: relative;
   text-align: center;
-  margin: auto auto 7.5px auto;
+  margin: 50px auto 7px auto;
   width: 100%;
 }
 
 .orders__title2 {
-  margin: 7.5px auto 50px auto;
+  margin: 7px auto 50px auto;
   font-size: 24px;
   font-weight: lighter;
   font-family: "Source Sans Pro", sans-serif;
@@ -321,6 +321,19 @@ body {
   width: 842px;
   position: relative;
   text-align: center;
+}
+
+.order_path {
+  width: 100%;
+  padding: 0 19.5%;
+  margin-top: 60px;
+  margin-bottom: 85px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .orders__title2:before {
@@ -345,19 +358,6 @@ body {
   border-color: #909090;
   top: 45%;
   position: absolute;
-}
-
-.order_path {
-  width: 100%;
-  padding: 0 19.5%;
-  margin-top: 60px;
-  margin-bottom: 88px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-align: center;
-      align-items: center;
 }
 
 .order__circle {
