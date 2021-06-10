@@ -1,8 +1,18 @@
-//  stworz sobie plik css o nazwie _helpers.scss i trzymaj tam proste klasy
-//  ktore moga sie przydac, np. text-red, text-bolded, m-5 czyli margin: 5px itp.
-//  i wtedy np w innej biblioteczce mozesz stworzyć dla numeru telefonu klase
-// o nazwie phone-number ktorą dodaje wykorzystuje klase text-bolded i text-red
-// z helpersów, czyli powstaje taka fajna reuzywalnosc -->
+$color-basic-green: #5bbd50;
+$color-header-read: #e24425;
+$color-header-grey: #727272;
+$color-header-background: #f8f8f8;
+$color-banner-white: #ffffff;
+$color-banner-input-placeholder-attribute: #c0c0c0;
+$color-menu-gray: #515151;
+$color-menu-background: #f1f1f1;
+$color-menu-left-lists: #494949;
+$color-menu-right-lists: #6e6e6e;
+
+$font-basic: "Source Sans Pro", sans-serif;
+$font-second: "Lobster Two", cursive;
+
+
 
 .parallel__line__style {
     content: "";
@@ -34,7 +44,7 @@
     position: absolute;
     border: solid white 4px;
     background: #e24425;
-    font-family: $font-menu;
+    font-family: $font-basic;
     font-size: 1.5em;
     margin: -25px;
     left: 50%;

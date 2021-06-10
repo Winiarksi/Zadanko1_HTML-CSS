@@ -18,7 +18,7 @@
 .orders__title1{
     font-size: 32px;
     font-weight: lighter;
-    font-family: $font-banner-second-headline;
+    font-family: $font-second;
     position: relative;
     text-align: center;
     margin: 50px auto 7px auto;
@@ -30,7 +30,7 @@
 
     font-size: 24px;
     font-weight: lighter;
-    font-family: $font-banner-first-headline;
+    font-family: $font-basic;
     color: red;
     width: 842px;
     position: relative;
@@ -83,8 +83,8 @@
 
     background: linear-gradient(
         to bottom,
-        $color-banner-green 0%,
-        $color-banner-green 50%,
+        $color-basic-green 0%,
+        $color-basic-green 50%,
         $color-menu-gray 50%,
         $color-menu-gray 100%
     );
