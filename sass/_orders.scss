@@ -1,4 +1,4 @@
-.container__orders{
+.container__orders {
     // width: 1920px;
     // margin: 0 19.5%;
     height: 508px;
@@ -7,15 +7,14 @@
 .orders__box {
     height: 508px;
     width: 1920px;
-  
+
     display: flex;
     // align-content: flex-end;
     align-items: stretch;
     flex-wrap: wrap;
-
 }
 
-.orders__title1{
+.orders__title1 {
     font-size: 32px;
     font-weight: lighter;
     font-family: $font-second;
@@ -25,7 +24,7 @@
     width: 100%;
 }
 
-.orders__title2{
+.orders__title2 {
     margin: 7px auto 50px auto;
 
     font-size: 24px;
@@ -35,7 +34,6 @@
     width: 842px;
     position: relative;
     text-align: center;
-    
 }
 
 .order_path {
@@ -71,7 +69,6 @@
     top: 45%;
     position: absolute;
 }
-
 
 .order__circle {
     position: relative;
@@ -163,7 +160,7 @@
     color: #78c770;
 }
 
-.arrow__icona{
+.arrow__icona {
     color: #f1f1f1;
     width: 80px;
     height: 23px;

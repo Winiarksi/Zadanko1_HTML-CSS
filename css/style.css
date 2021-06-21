@@ -445,19 +445,15 @@ body {
   height: 23px;
 }
 
-.box {
-  position: relative;
-  outline: solid 2px;
-  height: 400px;
-  width: 1920px;
+.container__offers {
+  height: 508px;
+  background-color: #f1f1f1;
 }
 
-.box:before {
-  position: absolute;
-  padding: 2em;
-  box-shadow: 0 0 7px #b53;
-  background: #95a;
-  content: '';
-  border: solid white 4px;
+.panel_shape {
+  height: 201px;
+  width: 370px;
+  border: 2px solid green;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
