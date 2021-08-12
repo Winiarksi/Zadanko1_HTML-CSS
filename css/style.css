@@ -1,4 +1,4 @@
-.parallel__line__style, .cta__title2:before, .cta__title2:after {
+.parallel__line__style, .find-restaurant__info:before, .find-restaurant__info:after {
   content: "";
   display: block;
   width: 355px;
@@ -9,7 +9,7 @@
   position: absolute;
 }
 
-.flex__setting__cta__filed, .form .field, .form .field3 {
+.flex__setting__find-restaurant__filed, .form .field, .form .field3 {
   height: 80px;
   display: -ms-flexbox;
   display: flex;
@@ -196,7 +196,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.cta {
+.find-restaurant {
   height: 423px;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +206,7 @@ body {
       flex-wrap: wrap;
 }
 
-.cta__title1 {
+.find-restaurant__header {
   font-size: 32px;
   font-weight: lighter;
   margin: 0 auto 7.5px auto;
@@ -217,7 +217,7 @@ body {
   text-align: center;
 }
 
-.cta__title2 {
+.find-restaurant__info {
   font-size: 32px;
   font-weight: lighter;
   margin: 7.5px auto 25px auto;
@@ -228,11 +228,11 @@ body {
   width: 1008px;
 }
 
-.cta__title2:before {
+.find-restaurant__info:before {
   left: 0;
 }
 
-.cta__title2:after {
+.find-restaurant__info:after {
   right: 0;
 }
 
@@ -256,7 +256,7 @@ body {
   max-width: 270px;
 }
 
-.form .cta__search {
+.form .find-restaurant__search {
   width: 100%;
   text-align: left;
   font-family: "Source Sans Pro", sans-serif;
@@ -265,7 +265,7 @@ body {
   padding-bottom: 10px;
 }
 
-.form .cta__input {
+.form .find-restaurant__input {
   width: 100%;
   height: 47px;
   border: 0;
@@ -302,7 +302,7 @@ body {
       flex-wrap: wrap;
 }
 
-.orders__title1 {
+.orders__header {
   font-size: 32px;
   font-weight: lighter;
   font-family: "Lobster Two", cursive;
@@ -312,7 +312,7 @@ body {
   width: 100%;
 }
 
-.orders__title2 {
+.orders__info {
   margin: 7px auto 50px auto;
   font-size: 24px;
   font-weight: lighter;
@@ -336,28 +336,23 @@ body {
       align-items: center;
 }
 
-.orders__title2:before {
-  left: 0px;
+.orders__info:before, .orders__info:after {
   content: "";
   display: block;
   width: 277px;
-  height: 4px;
   border-top: 3px dotted;
   border-color: #909090;
   top: 45%;
   position: absolute;
+  height: 4px;
 }
 
-.orders__title2:after {
+.orders__info:before {
+  left: 0;
+}
+
+.orders__info:after {
   right: 0;
-  content: "";
-  display: block;
-  width: 277px;
-  height: 4px;
-  border-top: 3px dotted;
-  border-color: #909090;
-  top: 45%;
-  position: absolute;
 }
 
 .order__circle {
@@ -430,7 +425,7 @@ body {
   height: 33px;
 }
 
-.order__description {
+.order__info {
   font-size: 18px;
   margin: auto;
 }

@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
 }
 
-.cta {
+.find-restaurant {
     height: 423px;
     display: flex;
     align-content: center;
@@ -15,7 +15,7 @@
 }
 
 
-.cta__title1 {
+.find-restaurant__header {
     font-size: 32px;
     font-weight: lighter;
     margin: 0 auto 7.5px auto;
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.cta__title2 {
+.find-restaurant__info {
     font-size: 32px;
     font-weight: lighter;
     margin: 7.5px auto 25px auto;
@@ -37,12 +37,12 @@
     width: 1008px;
 }
 
-.cta__title2:before {
+.find-restaurant__info:before {
     left: 0;
     @extend .parallel__line__style;
 }
 
-.cta__title2:after {
+.find-restaurant__info:after {
     right: 0;
     @extend .parallel__line__style;
 }
@@ -57,16 +57,16 @@
 
     .field {
         width: 370px;
-        @extend .flex__setting__cta__filed;
+        @extend .flex__setting__find-restaurant__filed;
     }
 
     .field3 {
         max-width: 270px;
-        @extend .flex__setting__cta__filed;
+        @extend .flex__setting__find-restaurant__filed;
 
     }
 
-    .cta__search {
+    .find-restaurant__search {
         width: 100%;
         text-align: left;
         font-family: $font-basic;
@@ -75,7 +75,7 @@
         padding-bottom: 10px;
     }
 
-    .cta__input {
+    .find-restaurant__input {
         width: 100%;
         height: 47px;
         border: 0;
